@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leave</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="leave.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="menu-placeholder"></div>
+        <div class="main-section">
+            <div class="menu-btn">
+                <img class="toggleMenuBtn" src="images/1.png" alt="Toggle Menu">
+                <div class="heading">
+                    <h1>Leave</h1>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="leave-section">
+                <div class="leave-image">
+                    <img src="images/wasay.png">
+                    <div class="leave-name">
+                        <h1>Abdul Wasay</h1>
+                        <p>Web Developer</p>
+                    </div>
+                </div>
+                <div class="date-input">
+                    <img class="date-img" src="images/Date.png" alt="">
+                    <input id="date" type="text">
+                    <img class="plus" src="images/plus.png" alt="">
+                    <button class="new-leave">New Leave</button>
+                </div>
+            </div>
+            <div class="info-box">
+                <div class="info-gray">
+                    <h1>Total Leave</h1>
+                    <div class="days">
+                        <p>12</p>
+                    </div>
+                </div>
+                <div class="center-line"></div>
+                <div class="info-gray">
+                    <h1>Total Absents</h1>
+                    <div class="days">
+                        <p>5</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-section">
+                <div class="box">
+                    <h1>Date</h1>
+                    <h1>Employee Name</h1>
+                    <h1>Department</h1>
+                    <h1>Leave Type</h1>
+                    <h1>Reason</h1>
+                    <h1>Application</h1>
+                    <h1>Status</h1>
+                </div>
+                <div class="white-box">
+                    <p>1-05-25</p>
+                    <p>Namra Sajjad</p>
+                    <p>HR</p>
+                    <p>Casual</p>
+                    <p>Sick</p>
+                    <div class="read">Read</div>
+                    <div class="waiting">Waiting</div>
+                </div>
+                <div class="gray-box">
+                    <p>1-05-25</p>
+                    <p>Abdul Wasay</p>
+                    <p>Web Developer</p>
+                    <p>Casual</p>
+                    <p>Sick</p>
+                    <div class="read">Read</div>
+                    <div class="waiting">Waiting</div>
+                </div>
+            </div>
+            <div class="next-page">
+                <i class="fa-solid fa-angle-left"></i>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+        </div>
+        <!-- Leave Application -->
+        <div class="Application-section">
+            <div class="leave-heading">
+                <div class="arrow">
+                    <i id="back-leave" class="fa-solid fa-arrow-left"></i>
+                </div>
+                <h1>Leave Application</h1>
+            </div>
+            <div class="application-line"></div>
+            <div class="application-card">
+                <div class="application-heading">
+                    <div class="application-image">
+                        <img src="images/book-open.png">
+                    </div>
+                    <div class="name">
+                        <h1>Leave Application</h1>
+                    </div>
+                </div>
+                <div class="sick-leave">
+                    <p>Fill the fields below to apply for sick leave.</p>
+                </div>
+                <div class="input-section">
+                    <div class="input-required">
+                        <label>Leave Type</label>
+                        <input type="text">
+                    </div>
+                    <div class="input-required">
+                        <label>Employee Name</label>
+                        <input type="text">
+                    </div>
+                    <div class="input-required">
+                        <label>Start Date</label>
+                        <img class="open-date" src="images/select-date.png" alt="">
+                        <input type="text" class="date-select">
+                    </div>
+                    <div class="input-required">
+                        <label>End Date</label>
+                        <img class="open-date" src="images/select-date.png" alt="">
+                        <input type="text" class="date-select">
+                    </div>
+                    <div class="input-required">
+                        <label>Duration</label>
+                        <input type="text">
+                    </div>
+                    <div class="input-required">
+                        <label>Department</label>
+                        <input type="text">
+                    </div>
+                    <div class="input-required">
+                        <label>Reason for Leave</label>
+                        <textarea></textarea>
+                    </div>
+                    <div class="submit-button">
+                        <button class="submit">Submit</button>
+                        <button class="Reset">Reset</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="menu.js"></script>
+    <script src="leave.js"></script>
+</body>
+
+</html>

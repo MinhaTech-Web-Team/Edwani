@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter';
+}
+
+.container {
+    display: flex;
+}
+
+.intern-heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.intern-heading h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #09182B;
+}
+
+.line {
+    width: 1110px;
+    height: 1px;
+    background-color: #000;
+    opacity: 30%;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.intern-details {
+    position: relative;
+    display: flex;
+    width: 220px;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.intern-details::after {
+    content: '';
+    position: absolute;
+    width: 80%;
+    height: 2px;
+    background-color: #0E9EE7;
+    bottom: 5px;
+}
+
+.intern-details img {
+    width: 25px;
+    height: 25px;
+}
+
+.intern-details h1 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #0E9EE7;
+}
+
+.certificate-button button {
+    width: 213px;
+    height: 50px;
+    background-color: #0E9EE7;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.card-section {
+    width: 1080px;
+    height: 726px;
+    background-color: rgba(227, 227, 227, 0.15);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 1.3fr 1.7fr 1.7fr 1.2fr 1.3fr .8fr 1fr;
+    align-items: center;
+    background-color: #EAEAEA;
+    width: 1032px;
+    height: 69px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.white-box {
+    display: grid;
+    grid-template-columns: 1.3fr 1.7fr 1.7fr 1.2fr 1.3fr .8fr 1fr;
+    align-items: center;
+    background-color: #fff;
+    width: 1032px;
+    height: 69px;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px 0px;
+}
+
+.box h1 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #09182B;
+}
+
+
+/* Intern Certificate */
+
+.hidden{
+    display: none;
+}
+
+.arrow i {
+    width: 34px;
+    height: 30px;
+    background-color: #0E9EE7;
+    color: #fff;
+    border-radius: 8px;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.download-button {
+    position: relative;
+    padding: 20px;
+    text-align: end;
+}
+
+.download-button img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 36%;
+    right: 11.5%;
+    pointer-events: none;
+}
+
+.download-button button {
+    width: 153px;
+    height: 44px;
+    color: #fff;
+    background-color: #0E9EE7;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.intern-certificate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.intern-certificate img{
+    width: 45px;
+    height: 45px;
+}
+
+.certificate-heading h1{
+  font-size: 40px;
+  font-weight: 400;
+  color: #1D1D1D;
+}
+
+.user-certificate{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.user-certificate img{
+    width: 986px;
+    height: 678px;
+}

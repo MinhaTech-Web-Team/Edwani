@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dashboard.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div id="menu-placeholder"></div>
+        <div class="top-section">
+            <div class="top-row">
+                <div class="image">
+                    <img class="toggleMenuBtn" src="images/1.png" alt="Toggle Menu">
+                    <div class="text-box">
+                        <h1>Hello Muzna</h1>
+                        <p>Good Morning</p>
+                    </div>
+                </div>
+                <div class="search">
+                    <input type="text" placeholder="Search">
+                    <i id="Search" class="fa-solid fa-magnifying-glass"></i>
+                    <a class="message-center">
+                        <img class="msg" src="images/notification.png" alt="">
+                    </a>
+                    <a class="notification-center">
+                        <i id="notification" class="fa-regular fa-bell"></i>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="left-info">
+                <div class="employee-box">
+                    <div class="img-box">
+                        <img src="images/Average.png" alt="">
+                        <h1>Average In Time</h1>
+                    </div>
+                    <div class="img-text">
+                        <h2>05:00 PM</h2>
+                    </div>
+                </div>
+                <div class="employee-box">
+                    <div class="img-box">
+                        <img src="images/break.png" alt="">
+                        <h1>Average Break Time</h1>
+                    </div>
+                    <div class="img-text">
+                        <h2>00:60 Min</h2>
+                    </div>
+                </div>
+                <div class="employee-box">
+                    <div class="img-box">
+                        <img src="images/work.png" alt="">
+                        <h1>Average Work Time</h1>
+                    </div>
+                    <div class="img-text">
+                        <h2>07:00Hrs</h2>
+                    </div>
+                </div>
+                <div class="employee-box">
+                    <div class="img-box">
+                        <img src="images/out.png" alt="">
+                        <h1>Average Out Time</h1>
+                    </div>
+                    <div class="img-text">
+                        <h2>01:00AM</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card-section">
+                <div class="card">
+                    <div class="late-section">
+                        <h2>Attendance</h2>
+                        <div class="time-section">
+                            <div class="time"></div>
+                            <p>On Time</p>
+                            <div class="late"></div>
+                            <p>Late</p>
+                            <div class="absent"></div>
+                            <p>Absents</p>
+                            <div class="custom-date-picker">
+                                <input type="text" id="date" placeholder="Select date">
+                                <img src="images/Date.png" alt="calendar" class="calendar-icon">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="canva">
+                        <canvas id="attendanceChart"></canvas>
+                    </div>
+                </div>
+                <div class="dashboard">
+                    <h1>My Tasks (02/10)</h1>
+                    <div class="status-info">
+                        <div class="status-box">
+                            <div class="status-number">01</div>
+                            <h3>creat wireframes</h3>
+                        </div>
+                        <div class="status-box">
+                            <div class="status-number">02</div>
+                            <h3>user flows</h3>
+                        </div>
+                        <div class="status-box">
+                            <div class="status-number">03</div>
+                            <h3>Empathy mapping</h3>
+                        </div>
+                        <div class="status-box">
+                            <div class="status-number">04</div>
+                            <h3>Dashboard Design</h3>
+                        </div>
+                        <div class="status-box">
+                            <div class="status-number">05</div>
+                            <h3>Card sorting</h3>
+                        </div>
+                        <div class="status-box">
+                            <div class="status-number">06</div>
+                            <h3>user research</h3>
+                        </div>
+                        <div class="view-btn">
+                            <button>View All</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="project-section">
+                <div class="white-box">
+                    <h3>Project</h3>
+                    <div class="name-section">
+                        <div class="number">
+                            <h2>#</h2>
+                            <li>01</li>
+                            <li>02</li>
+                            <li>03</li>
+                            <li>04</li>
+                            <li>05</li>
+                            <li>06</li>
+                        </div>
+                        <div class="names">
+                            <h1>Name</h1>
+                            <li>Home Decore Range</li>
+                            <li>Disney Princess Dress</li>
+                            <li>Bathroom Essentials</li>
+                            <li>Bathroom Essentials</li>
+                            <li>Bathroom Essentials</li>
+                            <li>Bathroom Essentials</li>
+                        </div>
+                        <div class="popularity">
+                            <h1>Popularity</h1>
+                            <div class="dark"></div>
+                            <div class="green"></div>
+                            <div class="Aqua"></div>
+                            <div class="Aqua"></div>
+                            <div class="Aqua"></div>
+                            <div class="Aqua"></div>
+                        </div>
+                        <div class="complete">
+                            <h1>Complete</h1>
+                            <div class="pending">
+                                <p>pending</p>
+                            </div>
+                            <div class="Completed">
+                                <p>Completed</p>
+                            </div>
+                            <div class="inprogress">
+                                <p>In Progress</p>
+                            </div>
+                            <div class="inprogress">
+                                <p>In Progress</p>
+                            </div>
+                            <div class="inprogress">
+                                <p>In Progress</p>
+                            </div>
+                            <div class="inprogress">
+                                <p>In Progress</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Employee-Performance">
+                    <div class="performance">
+                        <h1>Employee Performance</h1>
+                        <div class="High-performance">
+                            <div class="green-color"></div>
+                            <p>High Performance</p>
+                        </div>
+                        <div class="High-performance">
+                            <div class="blue-color"></div>
+                            <p>Low Performance</p>
+                        </div>
+                        <div class="custom-date-picker">
+                            <input type="text" id="dateBtn">
+                            <img src="images/Date.png" alt="calendar" class="date-icon">
+                        </div>
+                    </div>
+                    <div class="canvas">
+                        <canvas id="employeeChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Notification section -->
+        <div class="top-container">
+            <div class="notification-section">
+                <div class="arrow">
+                    <a id="back-dashboard">
+                        <i id="left" class="fa-solid fa-arrow-left"></i>
+                    </a>
+                    <h1>Notification</h1>
+                </div>
+                <div class="search-notification">
+                    <input type="text" placeholder="Search">
+                    <i id="search-user" class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="box-notification">
+                <div class="notification-image">
+                    <div class="notification-name">
+                        <img src="images/muzna.png" alt="">
+                        <div class="user">
+                            <h1>Leave Request</h1>
+                            <p>@Muzna send sick leave</p>
+                        </div>
+                    </div>
+                    <div class="msg">
+                        <p>Just Now</p>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="notification-image">
+                    <div class="notification-name">
+                        <img src="images/muzna.png" alt="">
+                        <div class="user">
+                            <h1>Leave Accepted</h1>
+                            <p>@Admin Accepted Muzna leave</p>
+                        </div>
+                    </div>
+                    <div class="msg">
+                        <p>11:16AM</p>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="notification-image">
+                    <div class="notification-name">
+                        <img src="images/muzna.png" alt="">
+                        <div class="user">
+                            <h1>Check In Issue</h1>
+                            <p>@Muzna Shared a message regarding check in issue </p>
+                        </div>
+                    </div>
+                    <div class="msg">
+                        <p>9:00AM</p>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="notification-image">
+                    <div class="notification-name">
+                        <img src="images/muzna.png" alt="">
+                        <div class="user">
+                            <h1>Password Update successfully</h1>
+                            <p>@Muzna Your password has been updated successfully</p>
+                        </div>
+                    </div>
+                    <div class="msg">
+                        <p>Yesterday</p>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="notification-image">
+                    <div class="notification-name">
+                        <img src="images/muzna.png" alt="">
+                        <div class="user">
+                            <h1>Password Update successfully</h1>
+                            <p>@Muzna Your password has been updated successfully</p>
+                        </div>
+                    </div>
+                    <div class="msg">
+                        <p>Yesterday</p>
+                    </div>
+                </div>
+                <div class="line"></div>
+            </div>
+        </div>
+        <!-- Message Section -->
+        <div class="message-section">
+            <div class="message-heading">
+                <div class="arrow">
+                    <i id="back" class="fa-solid fa-arrow-left"></i>
+                </div>
+                <h1>Message</h1>
+            </div>
+            <div class="message-line"></div>
+            <div class="text-area">
+                <textarea class="write-message" placeholder="Send Message"></textarea>
+            </div>
+            <div class="send-btn">
+                <button class="cencel">cancel</button>
+                <button class="send">Send</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="menu.js"></script>
+    <script src="dashboard.js"></script>
+</body>
+
+</html>
