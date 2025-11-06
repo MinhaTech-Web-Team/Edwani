@@ -70,7 +70,7 @@ const About = () => {
             <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-sky-700/10 rounded-3xl" />
             <img
               src="/homeabout-1.jpg"
-              alt="Al-Edwani Construction Excellence - Premium Projects Showcase"
+              alt="Edwani contracting Construction Excellence - Premium Projects Showcase"
               className="w-full h-full rounded-3xl object-cover 
                          shadow-2xl border-[5px] border-white/95
                          group-hover:shadow-3xl group-hover:scale-[1.02]
@@ -90,7 +90,7 @@ const About = () => {
             <div className="absolute inset-0 bg-gradient-to-tr from-sky-400/5 to-blue-600/8 rounded-3xl" />
             <img
               src="/homeabout-2.jpg"
-              alt="Al-Edwani Heavy Equipment & Machinery Services"
+              alt="Edwani contracting Heavy Equipment & Machinery Services"
               className="w-full h-full rounded-3xl object-cover 
                          shadow-xl border-[4px] border-white/90
                          group-hover:shadow-2xl group-hover:scale-[1.015]
@@ -145,11 +145,7 @@ const About = () => {
                        bg-gradient-to-br from-[#2387C0] to-sky-600 bg-clip-text text-transparent text-center xl:text-left w-full"
             variants={fadeUp}
           >
-            Al-Edwani
-            <br />
-            <span className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl">
-              Establishment
-            </span>
+            Edwani Contracting
           </motion.h2>
         </motion.div>
         {/* Premium Content Blocks */}
@@ -158,7 +154,7 @@ const About = () => {
             <div className="absolute -left-4 md:-left-6 top-0 w-1 h-full bg-gradient-to-b from-[#2387C0] to-sky-400 rounded-full" />
             <p className="text-gray-800 text-base md:text-lg leading-7 md:leading-9 font-medium pl-4 md:pl-4">
               <strong className="font-bold text-gray-900">
-                Mohaisin Ibrahim Taama Al-Edwani Establishment
+                Mohaisin Ibrahim Taama Edwani Contracting Establishment
               </strong>{" "}
               has been the{" "}
               <span className="text-[#2387C0] font-semibold">
@@ -180,7 +176,7 @@ const About = () => {
 
           <p className="text-gray-600 text-sm md:text-base leading-7 md:leading-8 font-light italic border-t border-blue-100/50 pt-4 md:pt-6">
             "Regardless of project complexity or geographical challenges,
-            Al-Edwani Establishment delivers exceptional results through our
+            Edwani contracting Establishment delivers exceptional results through our
             unique combination of technical knowledge, skilled workforce,
             extensive experience and unwavering commitment to client
             satisfaction."

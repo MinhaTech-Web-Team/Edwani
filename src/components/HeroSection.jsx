@@ -464,7 +464,7 @@ const HeroSection = () => {
               className="text-lg text-gray-600 leading-relaxed max-w-md mx-auto mb-10 font-light"
               variants={fadeUp}
             >
-              Excellence in every project. Trust Al-Edwani for unparalleled
+              Excellence in every project. Trust Edwani contracting for unparalleled
               construction quality and reliability that stands the test of time.
             </motion.p>
           </motion.div>
@@ -610,7 +610,7 @@ const HeroSection = () => {
               className="text-xl font-bold text-gray-900 mb-6 text-center flex items-center justify-center gap-3"
               variants={fadeUp}
             >
-              Why Choose Al-Edwani
+              Why Choose Edwani Contracting
             </motion.h3>
 
             <motion.ul className="space-y-4" variants={staggerContainer}>

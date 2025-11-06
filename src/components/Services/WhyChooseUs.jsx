@@ -76,7 +76,7 @@ const WhyChooseUs = () => {
             viewport={{ once: true }}
           >
             Why Choose{" "}
-            <span className="text-[#2387C0] block sm:inline">Al-Edwani</span>
+            <span className="text-[#2387C0] block sm:inline">Edwani Contracting</span>
           </motion.h1>
 
           <motion.div
@@ -119,7 +119,7 @@ const WhyChooseUs = () => {
                 <img
                   className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
                   src="/why3.jpg"
-                  alt="Main construction project by Al-Edwani"
+                  alt="Main construction project by Edwani Contracting"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-500" />
 

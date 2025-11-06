@@ -3,12 +3,12 @@ import React from "react";
 export default function SectionTwo() {
   // 🧰 Dummy Data (Text from your image)
   const materialServices = [
-    "Backfill Materials",
-    "Soil",
-    "Natural Stones",
-    "Cement",
-    "Aggregates/Gravels",
-    "Sand",
+    "Electrical Installation",
+    "Power Distribution Systems",
+    "Lighting & Control System",
+    "Panel Boards & Switchgear",
+    "Testing & Commissioning",
+    "Maintance & Emergeny Support",
   ];
 
   return (
