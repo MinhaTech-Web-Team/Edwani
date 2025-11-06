@@ -124,16 +124,11 @@ const OurClients = () => {
           viewport={{ once: true }}
           className="text-center mb-12 sm:mb-16 lg:mb-20"
         >
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 mb-4 sm:mb-6">
-            Our <span className="text-[#2387C0]">Clients</span>
-          </h2>
-          <div className="w-20 sm:w-24 h-1 bg-[#2387C0] mx-auto mb-6 sm:mb-8"></div>
           <p className="text-lg sm:text-xl lg:text-xl text-gray-600 max-w-3xl mx-auto px-4 sm:px-0">
             Trusted by industry leaders and government organizations across
             Saudi Arabia
           </p>
         </motion.div>
-
         {/* Clients Grid */}
         <motion.div
           variants={containerVariants}

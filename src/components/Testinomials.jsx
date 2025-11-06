@@ -6,7 +6,7 @@ const Testimonials = () => {
   const testimonials = [
     {
       title: "Project Manager, Yasref",
-      text: "Al-Edwani Establishment delivered our project on time with outstanding quality. Their professionalism and attention to detail exceeded our expectations, making them a reliable partner for complex construction projects.",
+      text: "Edwani contracting Establishment delivered our project on time with outstanding quality. Their professionalism and attention to detail exceeded our expectations, making them a reliable partner for complex construction projects.",
       name: "Lorri Warf",
       image: "/test1.jpg",
       company: "YASREF",
@@ -87,7 +87,7 @@ const Testimonials = () => {
           </h1>
 
           <p className="text-lg lg:text-xl text-gray-600 max-w-3xl leading-relaxed font-light">
-            Discover why industry leaders trust Al-Edwani for their construction
+            Discover why industry leaders trust edwani contracting  for their construction
             and infrastructure projects through their own words and experiences.
           </p>
         </motion.div>

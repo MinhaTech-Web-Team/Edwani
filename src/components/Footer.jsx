@@ -14,8 +14,8 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 py-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 relative z-10">
         {/* Column 1 - Brand */}
         <div className="space-y-5">
-          <h2 className="text-3xl sm:text-4xl font-bold uppercase tracking-wide whitespace-nowrap">
-            EDWANI GROUP
+          <h2 className="text-3xl sm:text-4xl font-bold uppercase tracking-wide ">
+            EDWANI Contracting
           </h2>
           <p className=" text-lg text-gray-300 font-medium -mt-6">
           Construction

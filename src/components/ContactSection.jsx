@@ -27,7 +27,6 @@ const ContactSection = () => {
     message: "",
     agree: false,
   });
-
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [mapLoaded, setMapLoaded] = useState(false);
 
@@ -585,7 +584,7 @@ const ContactSection = () => {
                       loading="lazy"
                       referrerPolicy="no-referrer-when-downgrade"
                       onLoad={() => setMapLoaded(true)}
-                      title="Al-Edwani Establishment Headquarters - Yanbu Industrial City, Saudi Arabia"
+                      title="Edwani Contracting Establishment Headquarters - Yanbu Industrial City, Saudi Arabia"
                       className="transition-all duration-700"
                     />
                   </div>
@@ -599,7 +598,7 @@ const ContactSection = () => {
                         </div>
                         <div className="flex-1 min-w-0">
                           <h4 className="font-bold text-gray-900 text-sm sm:text-base mb-1">
-                            Al-Edwani Establishment
+                            Edwani Contracting 
                           </h4>
                           <p className="text-gray-600 text-xs sm:text-sm leading-relaxed">
                             Yanbu Industrial City

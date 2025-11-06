@@ -24,6 +24,7 @@ import Projects2 from "./pages/Projects2";
 import Projects3 from "./pages/Projects3";
 import ConstructionServices from "./pages/ConstructionServices";
 import MechanicalServices from "./pages/MechanicalServices";
+import Customers from "./pages/Customers";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -81,6 +82,7 @@ const App = () => {
             />
             <Route path="/qhse/certification" element={<Certifications />} />
             <Route path="/qhse/awards" element={<Awards />} />
+            <Route path="/customer" element={<Customers/>}/>
           </Routes>
           <Footer />
         </>

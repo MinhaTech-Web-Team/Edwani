@@ -23,14 +23,21 @@ const TransparentNavbar = () => {
       { name: "Safety & Quality", path: "/about/safety-quality" },
       { name: "Our Clients", path: "/about/clients" },
     ],
+
     Services: [
       { name: "MEP Consultancy", path: "/services/construction" },
-      { name: "Landscaping", path: "/services/mechanical" },
-      { name: "Hardscaping", path: "/services/mechanical" },
-      { name: "Civil", path: "/services/mechanical" },
-      { name: "Equipment Rental & Maintenance Services", path: "/services/mechanical" },
-      { name: "Construction Material Supply", path: "/services/mechanical" },
-      { name: "Safety Consultancy", path: "/services/mechanical" },
+      { name: "Landscaping", path: "/services/landscaping" },
+      { name: "Hardscaping", path: "/services/hardscaping" },
+      { name: "Civil", path: "/services/civil" },
+      {
+        name: "Equipment Rental & Maintenance Services",
+        path: "/services/equipment",
+      },
+      {
+        name: "Construction Material Supply",
+        path: "/services/constructionmaterial",
+      },
+      { name: "Safety Consultancy", path: "/services/safety" },
     ],
     Projects: [
       {
@@ -58,6 +65,7 @@ const TransparentNavbar = () => {
     { name: "About", path: "/about" },
     { name: "Services", hasDropdown: true, mainPath: "/services" },
     { name: "Projects", hasDropdown: true, mainPath: "/project" },
+    { name: "Customers", path: "/customer" },
     { name: "QHSE", hasDropdown: true, mainPath: "/qhse" },
     { name: "Career", path: "/career" },
   ];
@@ -103,7 +111,7 @@ const TransparentNavbar = () => {
     <div
       className="
         w-full 
-        px-4 sm:px-8 md:px-12 lg:px-[132px] 
+        px-4 sm:px-8 md:px-6 
         py-4 md:py-6 
         bg-transparent
         fixed top-0 left-0 z-[1000] 
@@ -111,7 +119,7 @@ const TransparentNavbar = () => {
       "
     >
       {/* ===== Desktop Navbar ===== */}
-      <nav className="hidden xl:flex items-center justify-between bg-white/90 backdrop-blur-md rounded-[16px] px-5 md:px-2 py-2 shadow-sm">
+      <nav className="hidden xl:flex items-center justify-between bg-white/90 backdrop-blur-md rounded-[16px] px-5 md:px-6 py-2 shadow-sm">
         {/* Logo (clickable) */}
         <div
           onClick={() => navigate("/")}
@@ -124,13 +132,15 @@ const TransparentNavbar = () => {
             alt="Edwani Contracting"
           />
           <div>
-          <h1 className="text-2xl font-bold text-[#2387C0]">Edwani Contracting</h1>
-          <p className="text-sm text-[#858585] font-medium">Construction</p>
+            <h1 className="text-2xl font-bold text-[#2387C0]">
+              Edwani Contracting
+            </h1>
+            <p className="text-sm text-[#858585] font-medium">Construction</p>
           </div>
         </div>
 
         {/* Links */}
-        <ul className="flex flex-wrap gap-6 lg:gap-[22px] items-center">
+        <ul className="flex flex-wrap gap-6 lg:gap-[30px] items-center">
           {mainLinks.map((link, index) => (
             <li
               key={index}
@@ -161,7 +171,7 @@ const TransparentNavbar = () => {
                       )
                     }
                     className="pl-1 cursor-pointer"
-                  > 
+                  >
                     <HiChevronDown
                       className={`text-[#171717] transition-transform duration-300 ${
                         activeDropdown === link.name ? "rotate-180" : ""
@@ -232,7 +242,9 @@ const TransparentNavbar = () => {
             alt="Edwani Contracting"
             className="cursor-pointer"
           />
-           <h1 className="text-[10px] sm:text-sm uppercase font-bold text-[#2387C0]">Edwani Contracting</h1>
+          <h1 className="text-[10px] sm:text-sm uppercase font-bold text-[#2387C0]">
+            Edwani Contracting
+          </h1>
         </div>
 
         <button
@@ -411,6 +423,5 @@ const TransparentNavbar = () => {
     </div>
   );
 };
-
 
 export default TransparentNavbar;

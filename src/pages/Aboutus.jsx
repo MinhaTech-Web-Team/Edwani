@@ -8,7 +8,6 @@ import VisionAndValues from "../components/About/VisionAndValues";
 import SafetyStandards from "../components/About/SafetyStandards";
 import Stats from "../components/About/Stats";
 import BestEngineers from "../components/About/BestEngineers";
-import OurClients from "../components/About/OurClients";
 
 // ===== Variants for Reuse =====
 const fadeInUp = {
@@ -149,7 +148,6 @@ const Aboutus = () => {
         transition={{ delay: 0.4 }}
         viewport={{ once: true }}
       >
-        <OurClients />
       </motion.section>
 
       {/* Stats Section */}
