@@ -101,22 +101,26 @@ const Navbar = () => {
       "
     >
       {/* ===== Desktop Navbar ===== */}
-      <nav className="hidden xl:flex items-center text-sm justify-between bg-white rounded-[16px] px-5 md:px-4 py-2 shadow-sm">
+      <nav className="hidden xl:flex items-center text-sm justify-between bg-white rounded-[16px] px-5 md:px-2 py-2 shadow-sm">
         {/* Logo (clickable) */}
         <div
           onClick={() => navigate("/")}
-          className="flex flex-col cursor-pointer select-none"
+          className="flex items-center cursor-pointer select-none"
         >
           <img
-            width={250}
-            height={250}
-            src="/desklogo2.png"
-            alt="Edwani Group"
+            width={100}
+            height={100}
+            src="/icon1.png"
+            alt="Edwani Contracting"
           />
+          <div>
+          <h1 className="text-2xl font-bold text-[#2387C0]">Edwani Contracting</h1>
+          <p className="text-sm text-[#858585] font-medium">Construction</p>
+          </div>
         </div>
 
         {/* Links */}
-        <ul className="flex flex-wrap gap-6 lg:gap-[30px] items-center">
+        <ul className="flex flex-wrap gap-6 lg:gap-[22px] items-center">
           {mainLinks.map((link, index) => (
             <li
               key={index}
@@ -212,17 +216,18 @@ const Navbar = () => {
         <div className="flex items-center">
           <img
             onClick={() => navigate("/")}
-            width={110}
-            height={110}
-            src="/moblogo.png"
-            alt="Edwani Group"
+            width={50}
+            height={50}
+            src="/icon1.png"
+            alt="Edwani contracting"
             className="cursor-pointer"
           />
+          <h1 className="text-[10px] sm:text-sm uppercase font-bold text-[#2387C0]">Edwani Contracting</h1>
         </div>
 
         <button
           onClick={() => navigate("/contact")}
-          className="px-4 py-2 text-white bg-[#2387C0] font-medium text-xs rounded-lg hover:bg-[#1e76a9] transition duration-300 shadow-sm"
+          className="px-2 sm:px-4 py-2 text-white bg-[#2387C0] font-medium text-xs rounded-lg hover:bg-[#1e76a9] transition duration-300 shadow-sm"
         >
           Contact
         </button>
@@ -251,8 +256,8 @@ const Navbar = () => {
           {/* Enhanced Header */}
           <div className="flex items-center justify-between p-6 border-b border-white/20 bg-gradient-to-r from-[#2387C0] to-[#2a95d6]">
             <div className="flex flex-col">
-              <h1 className="text-xl font-bold uppercase text-white tracking-wide">
-                EDWANI GROUP
+              <h1 className="text-base font-bold uppercase text-white tracking-wide">
+                EDWANI Contracting
               </h1>
               <p className="text-xs font-medium text-white/80 mt-1">
                 Construction Excellence

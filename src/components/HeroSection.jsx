@@ -91,7 +91,7 @@ const HeroSection = () => {
                            bg-blue-50 px-3 md:px-4 py-1.5 md:py-2 rounded-full border border-blue-100"
                 variants={fadeUp}
               >
-                Leading Construction
+                Leading Construction Company
               </motion.span>
             </div>
 
@@ -251,7 +251,7 @@ const HeroSection = () => {
             >
               <div className="w-3 h-10 bg-[#2387C0] rounded-full mr-4"></div>
               <span className="text-base font-semibold text-[#2387C0] tracking-wider uppercase">
-                Leading Construction
+                Leading Construction Company
               </span>
             </motion.div>
 
@@ -440,7 +440,7 @@ const HeroSection = () => {
             >
               <div className="w-2 h-8 bg-[#2387C0] rounded-full mr-3"></div>
               <span className="text-sm font-semibold text-[#2387C0] tracking-wider uppercase">
-                Leading Construction
+                Leading Construction Company
               </span>
             </motion.div>
 
