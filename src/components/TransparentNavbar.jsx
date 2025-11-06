@@ -227,7 +227,7 @@ const TransparentNavbar = () => {
             alt="Edwani Contracting"
             className="cursor-pointer"
           />
-           <h1 className="text-sm uppercase font-bold text-[#2387C0]">Edwani Contracting</h1>
+           <h1 className="text-[10px] sm:text-sm uppercase font-bold text-[#2387C0]">Edwani Contracting</h1>
         </div>
 
         <button
