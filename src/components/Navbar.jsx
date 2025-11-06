@@ -18,8 +18,13 @@ const Navbar = () => {
 
   const NavLinks = {
     Services: [
-      { name: "Construction Services", path: "/services/construction" },
-      { name: "Mechanical Services", path: "/services/mechanical" },
+      { name: "MEP Consultancy", path: "/services/construction" },
+      { name: "Landscaping", path: "/services/mechanical" },
+      { name: "Hardscaping", path: "/services/mechanical" },
+      { name: "Civil", path: "/services/mechanical" },
+      { name: "Equipment Rental & Maintenance Services", path: "/services/mechanical" },
+      { name: "Construction Material Supply", path: "/services/mechanical" },
+      { name: "Safety Consultancy", path: "/services/mechanical" },
     ],
     Projects: [
       {
@@ -92,9 +97,9 @@ const Navbar = () => {
     <div
       className="
         w-full 
-        px-4 sm:px-8 md:px-12 lg:px-[132px] 
+        px-4 sm:px-8 md:px-12 lg:px-[110px] 
         py-4 md:py-6 
-        bg-[#F8FAFB] 
+      bg-[#F8FAFB] 
         fixed top-0 left-0 z-[1000] 
         backdrop-blur-md bg-opacity-95
         transition-all duration-300

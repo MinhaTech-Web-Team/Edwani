@@ -24,8 +24,13 @@ const TransparentNavbar = () => {
       { name: "Our Clients", path: "/about/clients" },
     ],
     Services: [
-      { name: "Construction Services", path: "/services/construction" },
-      { name: "Mechanical Services", path: "/services/mechanical" },
+      { name: "MEP Consultancy", path: "/services/construction" },
+      { name: "Landscaping", path: "/services/mechanical" },
+      { name: "Hardscaping", path: "/services/mechanical" },
+      { name: "Civil", path: "/services/mechanical" },
+      { name: "Equipment Rental & Maintenance Services", path: "/services/mechanical" },
+      { name: "Construction Material Supply", path: "/services/mechanical" },
+      { name: "Safety Consultancy", path: "/services/mechanical" },
     ],
     Projects: [
       {
